@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: darkgreen;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: cyan;
+  font-weight: 900;
+  font-size: larger;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+nav ul li {
+  margin-left: 0.5px;
+  margin-right: 0.5px;
+}
+
+nav ul li a {
+  color: burlywood;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 1px;
+}
+
+nav ul li a:hover {
+  color: #DC7633;
+}
+
+.cta {
+  background-color: darkolivegreen;
+  color: burlywood;
+}
+
+.cta:hover {
+  background-color: #D35400;
+  color: #FFF;
+}
+h1{
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  color: orange;
+}
+.one{
+  background-color: antiquewhite;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
